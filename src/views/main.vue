@@ -26,6 +26,7 @@
         })
       });
       this.viewer._cesiumWidget._creditContainer.style.display='none';//去除Logo
+      this.viewer.scene.globe.enableLighting = true;//添加太阳
       this.addMultiplePoints(10);
     },
     methods: {
